@@ -1,2 +1,2 @@
 # Payload Download Cradles 
-Different types of Download Cradles to bypass AV/EPP/EDR and download your payload.
+Different types of download cradles to bypass AV/EPP/EDR and download your payload.
