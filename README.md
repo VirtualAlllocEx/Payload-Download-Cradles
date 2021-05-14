@@ -1,2 +1,2 @@
-# Powershell Download Cradles 
-Different Powershell Download Cradles to bypass AV/EPP/EDR and download your payload.
+# Payload Download Cradles 
+Different types of Download Cradles to bypass AV/EPP/EDR and download your payload.
