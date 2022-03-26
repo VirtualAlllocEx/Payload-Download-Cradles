@@ -4,5 +4,7 @@ AV/EPP/EDR in context of download cradle detections. Notice, removing or obfusca
 only one piece of the puzzle to bypass an AV/EPP/EDR. Depending on the respective product you have to modify your payload which 
 should be downloaded by the cradle to bypass API-Hooking, Callbacks, AMSI etc. 
 
-For PowerShell obfuscation I used as usual the amazing tool Invoke Obufscation from Daniel Bohannon 
+Creds to Daniel Bohannon for his amazing obfuscation tools, many thanks to Daniel.
 https://github.com/danielbohannon/Invoke-Obfuscation
+https://github.com/danielbohannon/Invoke-CradleCrafter
+https://github.com/danielbohannon/Invoke-DOSfuscation
