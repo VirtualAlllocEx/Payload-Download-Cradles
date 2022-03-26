@@ -5,6 +5,9 @@ only one piece of the puzzle to bypass an AV/EPP/EDR. Depending on the respectiv
 should be downloaded by the cradle to bypass API-Hooking, Callbacks, AMSI etc. 
 
 Creds to Daniel Bohannon for his amazing obfuscation tools, many thanks to Daniel.
+
 https://github.com/danielbohannon/Invoke-Obfuscation
+
 https://github.com/danielbohannon/Invoke-CradleCrafter
+
 https://github.com/danielbohannon/Invoke-DOSfuscation
